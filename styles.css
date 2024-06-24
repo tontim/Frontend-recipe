@@ -12,22 +12,20 @@ body {
     max-width: 90%;
 }
 img {
-    max-width: 100%;
+    max-width: 50%;
 }
 /* Heading styles */
 h1 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 1.5em;
-    margin-bottom: 0.75em;
+    font-size: 1.2em;
 }
 
 /* Paragraph styles */
 p {
-    margin: 1em 0;
+    margin: 1em;
 }
 
 /* Link styles */
@@ -42,8 +40,8 @@ a:hover {
 
 /* List styles */
 ul {
-    list-style: none;
-    padding: 0;
+    text-decoration-thickness: 5px;
+    list-style: disc;
 }
 
 li {
