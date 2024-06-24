@@ -9,10 +9,10 @@ body {
     max-width: 100%;
 }
 .container {
-    max-width: 90%;
+    max-width: 70%;
 }
 img {
-    max-width: 50%;
+    max-width: 100%;
 }
 /* Heading styles */
 h1 {
@@ -26,6 +26,9 @@ h2 {
 /* Paragraph styles */
 p {
     margin: 1em;
+    padding: 5px;
+    background-color: #ffffff;
+    
 }
 
 /* Link styles */
@@ -39,13 +42,20 @@ a:hover {
 }
 
 /* List styles */
-ul {
-    text-decoration-thickness: 5px;
-    list-style: disc;
+ol {
+    background-color: #ffffff;
+
+}
+ol ::marker {
+    font-weight: bold;
 }
 
 li {
     padding: 0.5em 0;
+}
+ul {
+    background-color: #ffffff;
+
 }
 
 /* Button styles */
@@ -67,5 +77,4 @@ footer {
     text-align: center;
     padding: 1em 0;
     background-color: #0d1b47;
-    color: #fff;
 }
